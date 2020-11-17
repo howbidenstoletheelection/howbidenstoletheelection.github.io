@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@300;400;700&display=swap');
+
+body {
+    font-family: 'Merriweather', sans-serif;
+    text-align: center;
+    height: 100%;
+    background-color: #cdd5e2;
+}
+
+table {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  padding: 25pt;
+}
+
+.content {
+    vertical-align: middle;
+}
+
+div.center {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.share {
+    vertical-align: bottom;
+    text-align: right;
+}
