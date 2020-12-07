@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@300;400;700&display=swap');
 
 body {
-    font-family: 'Merriweather', sans-serif;
+    font-family: 'Merriweather', serif;
     text-align: center;
     height: 100%;
     background-color: #cdd5e2;
@@ -28,4 +28,14 @@ div.center {
 .share {
     vertical-align: bottom;
     text-align: left;
+}
+
+@media {max-width: 1000px) {
+    .share {
+       text-align: center;   
+    }
+    
+    .table {
+      max-width: 750px   
+    }
 }
