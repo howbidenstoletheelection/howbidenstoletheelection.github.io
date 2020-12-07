@@ -35,7 +35,7 @@ div.center {
        text-align: center;   
     }
     
-    .table {
-      max-width: 750px   
+    body {
+        font-size: xx-large;
     }
 }
